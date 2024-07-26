@@ -25,7 +25,7 @@ body, html {
     margin: 1rem;
     font-size: 1.5rem;
     padding: 1rem .5rem; /*top&bottom:1rem, right&left: 0.5rem*/
-    transition: all .07s ease;
+    transition: all .07s ease; /*Removes the class playing after .07 seconds*/
     width: 10rem;
     text-align: center;
     color: white;
