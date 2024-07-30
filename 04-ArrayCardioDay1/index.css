@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    background-color: rgb(1, 1, 35);
+    color: blanchedalmond;
+  }
+  
+  div {
+    text-align: center; /* Center text within the div */
+    font-size: 50px;
+    color:azure;
+  }
+
+  /*
+    to vertically center <p>;
+    ensure that the body and html elements occupy the full height of the viewport,
+    and that the parent <div> (or the <body> itself) is displayed as a flex container. 
+  */
