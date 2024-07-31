@@ -48,7 +48,7 @@ console.table(ordered);
 //4.How many yeard did all the inventors live?
 const totalYears = inventors.reduce((total, inventor) => {
     return total + (inventor.passed - inventor.year);
-}, 0);
+}, 0);// zero is the first value of total
 
 console.log(`Total life time of all inventors: (reduce) ${totalYears}`);
 
@@ -98,6 +98,6 @@ const transportation = data.reduce(function(obj, item) {
     }
     obj[item]++;
     return obj;
-}, {});
+}, {}); //the empty curly braces are for start object/empty
 
 console.log(transportation)
